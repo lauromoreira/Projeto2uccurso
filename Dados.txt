@@ -1,0 +1,10 @@
+pessoa1
+18
+matematica
+pessoa2
+19
+matematica
+pessoa3
+19
+biologia
+
