@@ -23,9 +23,7 @@ vagas = vag;
 
 }
 
-public curso (){
-  
-}
+
 //gets e sets
   public string GetTipo(){
    return tipo;
