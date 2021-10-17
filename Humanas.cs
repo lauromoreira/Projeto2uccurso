@@ -1,7 +1,10 @@
-class Humanas : Curso {
+using System;
+class Humanas : Curso{
   
-  protected override void visualizarSimilaridade (string tipo,int afinidade){
-    if (afinidade = 2 ) {
+  protected void visualizarSimilaridade (string tipo, int afinidade){
+    int afi = afinidade;
+    string tip = tipo;
+    if (afi == 1) {
       Console.WriteLine("Listar Cursos Humanas");
     }
   }

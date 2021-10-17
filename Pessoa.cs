@@ -3,15 +3,16 @@ using System;
 
 class Pessoa {
   private string nome;
-  private string idade;
+  private int idade;
   private string matPref;
-  private List<Pessoa>listaPessoas = new List<Pessoa>();
+  public List<Pessoa> ListaPessoa = new List<Pessoa>();
+ 
  
 //contrutor
-public Pessoa (string n,string i,string mPref){
+public Pessoa (string n,int i,string mPref){
 nome = n;
 idade = i;
-maPref = mPref;
+matPref = mPref;
 }
 //gets e sets
   public string GetNome(){
@@ -21,10 +22,10 @@ maPref = mPref;
      nome = n;
    }
 
-  public string GetIdade(){
+  public int GetIdade(){
      return idade;
      }
-  public void SetIdade(string i){
+  public void SetIdade(int i){
      idade = i;
      }
   public int GetMatPref(){
@@ -33,4 +34,4 @@ maPref = mPref;
   public void SetMatPref(double mPref){
      matPref = mPref;
    }
-   }
+  }

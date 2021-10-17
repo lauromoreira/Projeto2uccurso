@@ -10,12 +10,21 @@ class Curso {
   private int afinidade;
 
 //contrutor
+public Curso(string ti, string dur){
+  tipo = ti;
+  duracao = dur;
+}
+
 public Curso (string ti,string dur,double val,string vag){
 tipo = ti;
 duracao = dur;
 valor = val;
 vagas = vag;
 
+}
+
+public curso (){
+  
 }
 //gets e sets
   public string GetTipo(){
@@ -31,9 +40,9 @@ vagas = vag;
   public void SetDuracao(string dur){
      duracao = dur;
      }
-  public int GetValor(){
-   return valor;
-   }
+  public double GetValor(){
+     return valor;
+  }
   public void SetValor(double val){
      valor = val;
    }
@@ -48,6 +57,5 @@ vagas = vag;
 
   public void adicionarCarrinho(int dinheiro) {
     valorCarrinho = dinheiro + valorCarrinho;
-    
-}
+  }
 }

@@ -8,7 +8,7 @@ class Negocio {
 
 //construtor
 public Negocio (string venda,string dataEnc){
-ven = venda;
+string ven = venda;
 dataEnc = dataEncerramento;
 }
 //metodos
@@ -24,7 +24,7 @@ public void AdicionarCurso(Curso c){
    return matriculados;
  }
  double af = 0;
- string x1 = 0;
+ double x1 = 0;
  double x2 = 0;
  public void CalcularSimilaridade(){
    foreach (string linha in cursoTotais) {
@@ -33,7 +33,7 @@ public void AdicionarCurso(Curso c){
     
     x1 = (lines[3])-(lines[6]);
     x2 = (lines[6])-(lines[9]);
-    af = x1 + x1 ^0,5;
+    af = x1 + x1 ^0.5;
     return af;
  //distribuir preferencias  
  //HXY significando a diferença de valor de honestidade entre os candidatos X e Y.

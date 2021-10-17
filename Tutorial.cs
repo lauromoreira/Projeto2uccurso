@@ -1,4 +1,4 @@
-public class Tutorial : Curso
+class Tutorial : Curso
 {
    private static double tempoLimite;
 
